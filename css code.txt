@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+
+}
+
+.navlist{
+  align-items: center;
+ 
+}
+
+.navlist li{
+  display: inline-block;
+  list-style: none;
+  text-decoration: underline;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero{
+  background-image: url(./img-mission-background.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  left: 655px ;
+
+}
+
+.hero h2, h4{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;  
+}
+
+.section{
+  text-align: center;
+  margin-top: 80px;
+  
+}
+
+.main{
+
+
+
+}
+
+
+.main2 h2{
+  text-align: center;
+}

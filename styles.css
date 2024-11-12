@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  padding: 10px;
+}
+
+.navlist{
+  align-items: center;
+}
+
+.navlist li{
+  display: inline-block;
+  list-style: none;
+  text-decoration: underline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero{
+  background-image: url(./img-mission-background.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.5;
+  position: relative;
+  left: 50px;
+}
+
+.hero h2, h4{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;  
+}
+
+.section{
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  margin: 80px;
+}
+
+.section h2{
+  margin-bottom: 10px;
+}
+
+.main{
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-around;
+ align-items: center;
+
+}
+
+.main img{
+  opacity: 0.5;
+}
+
+.main2 h2{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.main2{
+ background-image: url(./img-locations-background.jpg);
+ opacity: 0.5;
+ background-position: top;
+ background-size: cover;
+ height: 500px;
+ margin: 50px 20px 20px;
+ padding: 50px 40px 10px;
+}
+
+.locations{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+li{
+  list-style: none;
+}
+
+.downtown{
+  background-color: black;
+  padding: 25px;
+  text-align: center;
+  line-height: 35px;
+  width: 300px;
+
+}
+
+.east-bayside {
+  background-color: black;
+  padding: 25px;
+  text-align: center;
+  line-height: 35px;
+  width: 300px;
+}
+
+.oakdale {
+  background-color: black;
+  padding: 25px;
+  text-align: center;
+  line-height: 35px;
+  width: 300px;
+  opacity: 1;
+}
+
+.fsection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.fsection h2, h5{
+  margin-bottom: 45px;
+}
+
+footer{
+  margin-left: 20px;
+  text-align: left;
+
+}
